@@ -1,0 +1,32 @@
+{"ts": "2026-03-31T18:31:59.909134Z", "level": "INFO", "module": "broker_executor", "message": "Alpaca client connected to https://paper-api.alpaca.markets"}
+{"ts": "2026-03-31T18:32:04.528218Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 5 items from Finnhub."}
+{"ts": "2026-03-31T18:32:51.296432Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 5 items from Finnhub."}
+{"ts": "2026-03-31T18:32:54.288172Z", "level": "INFO", "module": "sentiment_scorer", "message": "Loading FinBERT model 'ProsusAI/finbert' \u2026 (first load may take ~30 s)"}
+{"ts": "2026-03-31T18:32:54.943492Z", "level": "INFO", "module": "sentiment_scorer", "message": "Loading FinBERT model 'ProsusAI/finbert' \u2026 (first load may take ~30 s)"}
+{"ts": "2026-03-31T18:32:55.706262Z", "level": "INFO", "module": "sentiment_scorer", "message": "Loading FinBERT model 'ProsusAI/finbert' \u2026 (first load may take ~30 s)"}
+{"ts": "2026-03-31T18:34:26.869802Z", "level": "INFO", "module": "sentiment_scorer", "message": "FinBERT model loaded."}
+{"ts": "2026-03-31T18:50:23.527743Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 2 items from Finnhub."}
+{"ts": "2026-03-31T18:50:23.875271Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 2 items from Finnhub."}
+{"ts": "2026-03-31T18:50:24.824319Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 2 items from Finnhub."}
+{"ts": "2026-03-31T18:50:32.448389Z", "level": "WARNING", "module": "news_fetcher", "message": "Finnhub (general): request failed: HTTPSConnectionPool(host='finnhub.io', port=443): Read timed out. (read timeout=10)"}
+{"ts": "2026-03-31T18:50:35.581402Z", "level": "WARNING", "module": "news_fetcher", "message": "fetch_headlines: Finnhub returned 0 items, trying next source."}
+{"ts": "2026-03-31T18:50:36.851763Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 14 items from Yahoo Finance."}
+{"ts": "2026-03-31T18:50:48.481096Z", "level": "INFO", "module": "signal_generator", "message": "SIGNAL_GENERATED", "ticker": "TSLA", "new_score": -0.0041, "composite": -0.0041, "window_size": 1, "signal": "HOLD"}
+{"ts": "2026-03-31T18:51:27.417916Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 2 items from Finnhub."}
+{"ts": "2026-03-31T18:56:05.933008Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 2 items from Finnhub."}
+{"ts": "2026-03-31T18:56:14.918916Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 2 items from Finnhub."}
+{"ts": "2026-03-31T18:58:09.713489Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-03-31T18:58:10.548039Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-03-31T18:58:21.214722Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-03-31T18:58:27.036329Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-03-31T18:58:41.858051Z", "level": "WARNING", "module": "news_fetcher", "message": "Finnhub (forex): request failed: HTTPSConnectionPool(host='finnhub.io', port=443): Read timed out. (read timeout=10)"}
+{"ts": "2026-03-31T18:58:43.077477Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-03-31T18:59:35.119433Z", "level": "WARNING", "module": "news_fetcher", "message": "Finnhub (merger): request failed: HTTPSConnectionPool(host='finnhub.io', port=443): Max retries exceeded with url: /api/v1/news?category=merger&token=d6t6dchr01qoqoisdv80d6t6dchr01qoqoisdv8g (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002A74458E850>, 'Connection to finnhub.io timed out. (connect timeout=10)'))"}
+{"ts": "2026-03-31T18:59:35.119664Z", "level": "WARNING", "module": "news_fetcher", "message": "fetch_headlines: Finnhub returned 0 items, trying next source."}
+{"ts": "2026-03-31T18:59:46.329803Z", "level": "WARNING", "module": "news_fetcher", "message": "Yahoo Finance: request failed: HTTPSConnectionPool(host='feeds.finance.yahoo.com', port=443): Max retries exceeded with url: /rss/2.0/headline?s=%5EGSPC%2C%5EDJI%2CAAPL%2CMSFT%2CGOOGL%2CAMZN%2CTSLA&region=US&lang=en-US (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002A728424190>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))"}
+{"ts": "2026-03-31T18:59:46.330128Z", "level": "WARNING", "module": "news_fetcher", "message": "fetch_headlines: Yahoo Finance returned 0 items, trying next source."}
+{"ts": "2026-03-31T18:59:46.330285Z", "level": "WARNING", "module": "news_fetcher", "message": "GNews: GNEWS_API_KEY is not set, skipping."}
+{"ts": "2026-03-31T18:59:46.331051Z", "level": "WARNING", "module": "news_fetcher", "message": "fetch_headlines: GNews returned 0 items, trying next source."}
+{"ts": "2026-03-31T18:59:46.331997Z", "level": "ERROR", "module": "news_fetcher", "message": "fetch_headlines: all sources failed. Returning demo headlines."}
+{"ts": "2026-03-31T19:00:17.930379Z", "level": "WARNING", "module": "broker_executor", "message": "Could not fetch account info: HTTPSConnectionPool(host='paper-api.alpaca.markets', port=443): Read timed out. (read timeout=None)"}
+{"ts": "2026-03-31T19:00:29.778585Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}

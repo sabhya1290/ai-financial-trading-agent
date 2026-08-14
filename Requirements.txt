@@ -1,0 +1,23 @@
+# ──────────────────────────────────────────────────────────────────
+# FinBERT Sentiment Trading Agent — Python dependencies
+# Install with:  pip install -r requirements.txt
+# ──────────────────────────────────────────────────────────────────
+
+# Core ML / NLP
+torch>=2.0.0                   # PyTorch backend for HuggingFace
+transformers>=4.38.0           # HuggingFace Transformers (FinBERT)
+sentencepiece>=0.1.99          # tokeniser dependency
+
+# HTTP / API clients
+requests>=2.31.0               # news API calls
+alpaca-trade-api>=3.0.0        # Alpaca paper trading broker
+
+# Configuration
+python-dotenv>=1.0.0           # load .env file into os.environ
+
+# Optional — enables spaCy NER fallback in ticker_detector.py
+# spacy>=3.7.0
+# Install language model separately:  python -m spacy download en_core_web_sm
+
+# Development / testing
+pytest>=7.4.0

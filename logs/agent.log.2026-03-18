@@ -1,0 +1,173 @@
+{"ts": "2026-03-18T08:53:09.819012Z", "level": "INFO", "module": "main", "message": "\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550"}
+{"ts": "2026-03-18T08:53:09.819331Z", "level": "INFO", "module": "main", "message": "  FinBERT Sentiment Trading Agent  \u2014 starting  "}
+{"ts": "2026-03-18T08:53:09.819517Z", "level": "INFO", "module": "main", "message": "  Poll interval : 60 s                         "}
+{"ts": "2026-03-18T08:53:09.819678Z", "level": "INFO", "module": "main", "message": "\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550"}
+{"ts": "2026-03-18T08:53:10.579192Z", "level": "INFO", "module": "broker_executor", "message": "Alpaca client connected to https://paper-api.alpaca.markets"}
+{"ts": "2026-03-18T08:53:11.991101Z", "level": "INFO", "module": "main", "message": "Alpaca account  equity=$100000.00  cash=$100000.00  buying_power=$200000.00"}
+{"ts": "2026-03-18T08:53:11.991369Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 08:53:11 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-03-18T08:53:12.982495Z", "level": "INFO", "module": "news_fetcher", "message": "Finnhub returned 0 usable headlines."}
+{"ts": "2026-03-18T08:53:12.984990Z", "level": "INFO", "module": "main", "message": "No new headlines this cycle."}
+{"ts": "2026-03-18T08:53:12.985581Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-03-18T08:53:18.819381Z", "level": "INFO", "module": "main", "message": "Shutdown signal received \u2014 finishing current cycle then exiting."}
+{"ts": "2026-03-18T08:53:18.988695Z", "level": "INFO", "module": "main", "message": "Agent stopped cleanly."}
+{"ts": "2026-03-18T08:53:20.712149Z", "level": "INFO", "module": "signal_generator", "message": "All score windows reset."}
+{"ts": "2026-03-18T08:53:20.713234Z", "level": "INFO", "module": "signal_generator", "message": "SIGNAL_GENERATED", "ticker": "AAPL", "new_score": 0.8, "composite": 0.8, "window_size": 1, "signal": "BUY"}
+{"ts": "2026-03-18T08:53:20.723146Z", "level": "INFO", "module": "signal_generator", "message": "SIGNAL_GENERATED", "ticker": "AAPL", "new_score": 0.9, "composite": 0.85, "window_size": 2, "signal": "BUY"}
+{"ts": "2026-03-18T08:53:20.723238Z", "level": "INFO", "module": "signal_generator", "message": "SIGNAL_GENERATED", "ticker": "AAPL", "new_score": 0.85, "composite": 0.85, "window_size": 3, "signal": "BUY"}
+{"ts": "2026-03-18T08:53:20.726299Z", "level": "INFO", "module": "signal_generator", "message": "All score windows reset."}
+{"ts": "2026-03-18T08:53:20.726879Z", "level": "INFO", "module": "signal_generator", "message": "SIGNAL_GENERATED", "ticker": "TSLA", "new_score": -0.8, "composite": -0.8, "window_size": 1, "signal": "SELL"}
+{"ts": "2026-03-18T08:53:20.726958Z", "level": "INFO", "module": "signal_generator", "message": "SIGNAL_GENERATED", "ticker": "TSLA", "new_score": -0.9, "composite": -0.85, "window_size": 2, "signal": "SELL"}
+{"ts": "2026-03-18T08:53:20.727032Z", "level": "INFO", "module": "signal_generator", "message": "SIGNAL_GENERATED", "ticker": "TSLA", "new_score": -0.85, "composite": -0.85, "window_size": 3, "signal": "SELL"}
+{"ts": "2026-03-18T08:53:20.729726Z", "level": "INFO", "module": "signal_generator", "message": "All score windows reset."}
+{"ts": "2026-03-18T08:53:20.730623Z", "level": "INFO", "module": "signal_generator", "message": "SIGNAL_GENERATED", "ticker": "MSFT", "new_score": 0.1, "composite": 0.1, "window_size": 1, "signal": "HOLD"}
+{"ts": "2026-03-18T08:53:20.732784Z", "level": "INFO", "module": "signal_generator", "message": "All score windows reset."}
+{"ts": "2026-03-18T08:53:20.733499Z", "level": "INFO", "module": "signal_generator", "message": "SIGNAL_GENERATED", "ticker": "NVDA", "new_score": 0.9, "composite": 0.9, "window_size": 1, "signal": "BUY"}
+{"ts": "2026-03-18T08:53:20.733612Z", "level": "INFO", "module": "signal_generator", "message": "SIGNAL_GENERATED", "ticker": "NVDA", "new_score": -0.9, "composite": 0.0, "window_size": 2, "signal": "HOLD"}
+{"ts": "2026-03-18T08:53:20.733656Z", "level": "INFO", "module": "signal_generator", "message": "SIGNAL_GENERATED", "ticker": "NVDA", "new_score": 0.0, "composite": 0.0, "window_size": 3, "signal": "HOLD"}
+{"ts": "2026-03-18T08:53:20.743306Z", "level": "INFO", "module": "risk_manager", "message": "TRADE_APPROVED", "ticker": "AAPL", "action": "BUY", "qty": 6, "entry_price": 150.0, "stop_loss": 147.0, "take_profit": 157.5, "reason": "Positive sentiment signal"}
+{"ts": "2026-03-18T08:53:20.746637Z", "level": "INFO", "module": "risk_manager", "message": "Skipping SELL AAPL \u2014 no open position."}
+{"ts": "2026-03-18T08:53:20.751515Z", "level": "INFO", "module": "risk_manager", "message": "Position opened: AAPL \u00d7 6 shares."}
+{"ts": "2026-03-18T08:53:20.751839Z", "level": "INFO", "module": "risk_manager", "message": "Skipping BUY AAPL \u2014 already holding a position."}
+{"ts": "2026-03-18T08:53:20.755442Z", "level": "WARNING", "module": "risk_manager", "message": "Skipping BUY NEWT \u2014 max open trades (5) reached."}
+{"ts": "2026-03-18T08:53:20.758070Z", "level": "INFO", "module": "risk_manager", "message": "TRADE_APPROVED", "ticker": "AAPL", "action": "BUY", "qty": 10, "entry_price": 100.0, "stop_loss": 98.0, "take_profit": 105.0, "reason": "Positive sentiment signal"}
+{"ts": "2026-03-18T08:53:20.764649Z", "level": "INFO", "module": "portfolio_manager", "message": "POSITION_OPENED", "ticker": "AAPL", "qty": 10, "price": 150.0, "stop_loss": 0.0, "take_profit": 0.0}
+{"ts": "2026-03-18T08:53:20.770135Z", "level": "INFO", "module": "portfolio_manager", "message": "POSITION_OPENED", "ticker": "AAPL", "qty": 10, "price": 150.0, "stop_loss": 0.0, "take_profit": 0.0}
+{"ts": "2026-03-18T08:53:20.770984Z", "level": "INFO", "module": "portfolio_manager", "message": "POSITION_CLOSED", "ticker": "AAPL", "qty": 10, "entry_price": 150.0, "exit_price": 160.0, "pnl": 100.0, "total_realised_pnl": 100.0}
+{"ts": "2026-03-18T08:53:20.775467Z", "level": "INFO", "module": "portfolio_manager", "message": "POSITION_OPENED", "ticker": "AAPL", "qty": 10, "price": 150.0, "stop_loss": 0.0, "take_profit": 0.0}
+{"ts": "2026-03-18T08:53:20.779536Z", "level": "WARNING", "module": "portfolio_manager", "message": "record_sell called for FAKE but no open position."}
+{"ts": "2026-03-18T08:53:24.483343Z", "level": "INFO", "module": "main", "message": "\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550"}
+{"ts": "2026-03-18T08:53:24.483803Z", "level": "INFO", "module": "main", "message": "  FinBERT Sentiment Trading Agent  \u2014 starting  "}
+{"ts": "2026-03-18T08:53:24.484342Z", "level": "INFO", "module": "main", "message": "  Poll interval : 60 s                         "}
+{"ts": "2026-03-18T08:53:24.484602Z", "level": "INFO", "module": "main", "message": "\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550"}
+{"ts": "2026-03-18T08:53:25.198508Z", "level": "INFO", "module": "broker_executor", "message": "Alpaca client connected to https://paper-api.alpaca.markets"}
+{"ts": "2026-03-18T08:53:26.531955Z", "level": "INFO", "module": "main", "message": "Alpaca account  equity=$100000.00  cash=$100000.00  buying_power=$200000.00"}
+{"ts": "2026-03-18T08:53:26.532252Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 08:53:26 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-03-18T08:53:27.458198Z", "level": "INFO", "module": "news_fetcher", "message": "Finnhub returned 0 usable headlines."}
+{"ts": "2026-03-18T08:53:27.459330Z", "level": "INFO", "module": "main", "message": "No new headlines this cycle."}
+{"ts": "2026-03-18T08:53:27.459698Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-03-18T08:54:27.499892Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 08:54:27 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-03-18T08:54:28.501996Z", "level": "INFO", "module": "news_fetcher", "message": "Finnhub returned 0 usable headlines."}
+{"ts": "2026-03-18T08:54:28.503912Z", "level": "INFO", "module": "main", "message": "No new headlines this cycle."}
+{"ts": "2026-03-18T08:54:28.504335Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-03-18T08:55:28.544817Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 08:55:28 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-03-18T08:55:29.442702Z", "level": "INFO", "module": "news_fetcher", "message": "Finnhub returned 0 usable headlines."}
+{"ts": "2026-03-18T08:55:29.443990Z", "level": "INFO", "module": "main", "message": "No new headlines this cycle."}
+{"ts": "2026-03-18T08:55:29.444523Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-03-18T08:56:29.473658Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 08:56:29 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-03-18T08:56:30.473732Z", "level": "INFO", "module": "news_fetcher", "message": "Finnhub returned 0 usable headlines."}
+{"ts": "2026-03-18T08:56:30.474851Z", "level": "INFO", "module": "main", "message": "No new headlines this cycle."}
+{"ts": "2026-03-18T08:56:30.475035Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-03-18T08:57:30.501362Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 08:57:30 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-03-18T08:57:31.979597Z", "level": "INFO", "module": "news_fetcher", "message": "Finnhub returned 0 usable headlines."}
+{"ts": "2026-03-18T08:57:31.981239Z", "level": "INFO", "module": "main", "message": "No new headlines this cycle."}
+{"ts": "2026-03-18T08:57:31.981553Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-03-18T08:58:32.010513Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 08:58:32 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-03-18T08:58:33.015156Z", "level": "INFO", "module": "news_fetcher", "message": "Finnhub returned 0 usable headlines."}
+{"ts": "2026-03-18T08:58:33.016209Z", "level": "INFO", "module": "main", "message": "No new headlines this cycle."}
+{"ts": "2026-03-18T08:58:33.016379Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-03-18T08:59:33.048891Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 08:59:33 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-03-18T08:59:34.097408Z", "level": "INFO", "module": "news_fetcher", "message": "Finnhub returned 0 usable headlines."}
+{"ts": "2026-03-18T08:59:34.098370Z", "level": "INFO", "module": "main", "message": "No new headlines this cycle."}
+{"ts": "2026-03-18T08:59:34.098686Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-03-18T09:00:34.131253Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 09:00:34 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-03-18T09:00:35.081245Z", "level": "INFO", "module": "news_fetcher", "message": "Finnhub returned 0 usable headlines."}
+{"ts": "2026-03-18T09:00:35.082313Z", "level": "INFO", "module": "main", "message": "No new headlines this cycle."}
+{"ts": "2026-03-18T09:00:35.082547Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-03-18T09:01:35.115522Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 09:01:35 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-03-18T09:01:36.314829Z", "level": "INFO", "module": "news_fetcher", "message": "Finnhub returned 0 usable headlines."}
+{"ts": "2026-03-18T09:01:36.316348Z", "level": "INFO", "module": "main", "message": "No new headlines this cycle."}
+{"ts": "2026-03-18T09:01:36.316639Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-03-18T09:02:36.346934Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 09:02:36 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-03-18T09:02:37.387964Z", "level": "INFO", "module": "news_fetcher", "message": "Finnhub returned 0 usable headlines."}
+{"ts": "2026-03-18T09:02:37.389889Z", "level": "INFO", "module": "main", "message": "No new headlines this cycle."}
+{"ts": "2026-03-18T09:02:37.390104Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-03-18T09:03:37.420831Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 09:03:37 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-03-18T09:03:38.291941Z", "level": "INFO", "module": "news_fetcher", "message": "Finnhub returned 0 usable headlines."}
+{"ts": "2026-03-18T09:03:38.293146Z", "level": "INFO", "module": "main", "message": "No new headlines this cycle."}
+{"ts": "2026-03-18T09:03:38.293309Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-03-18T09:04:38.325232Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 09:04:38 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-03-18T09:04:39.305330Z", "level": "INFO", "module": "news_fetcher", "message": "Finnhub returned 0 usable headlines."}
+{"ts": "2026-03-18T09:04:39.306567Z", "level": "INFO", "module": "main", "message": "No new headlines this cycle."}
+{"ts": "2026-03-18T09:04:39.306720Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-03-18T09:05:39.339752Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 09:05:39 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-03-18T09:05:40.258138Z", "level": "INFO", "module": "news_fetcher", "message": "Finnhub returned 0 usable headlines."}
+{"ts": "2026-03-18T09:05:40.260354Z", "level": "INFO", "module": "main", "message": "No new headlines this cycle."}
+{"ts": "2026-03-18T09:05:40.260952Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-03-18T09:06:40.291542Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 09:06:40 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-03-18T09:06:41.219819Z", "level": "INFO", "module": "news_fetcher", "message": "Finnhub returned 0 usable headlines."}
+{"ts": "2026-03-18T09:06:41.221731Z", "level": "INFO", "module": "main", "message": "No new headlines this cycle."}
+{"ts": "2026-03-18T09:06:41.222100Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-03-18T09:07:41.254570Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 09:07:41 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-03-18T09:07:42.122416Z", "level": "INFO", "module": "news_fetcher", "message": "Finnhub returned 0 usable headlines."}
+{"ts": "2026-03-18T09:07:42.123478Z", "level": "INFO", "module": "main", "message": "No new headlines this cycle."}
+{"ts": "2026-03-18T09:07:42.123693Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-03-18T09:08:42.165771Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 09:08:42 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-03-18T09:08:43.128157Z", "level": "INFO", "module": "news_fetcher", "message": "Finnhub returned 0 usable headlines."}
+{"ts": "2026-03-18T09:08:43.129932Z", "level": "INFO", "module": "main", "message": "No new headlines this cycle."}
+{"ts": "2026-03-18T09:08:43.130375Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-03-18T09:09:43.163505Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 09:09:43 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-03-18T09:09:44.150487Z", "level": "INFO", "module": "news_fetcher", "message": "Finnhub returned 0 usable headlines."}
+{"ts": "2026-03-18T09:09:44.152572Z", "level": "INFO", "module": "main", "message": "No new headlines this cycle."}
+{"ts": "2026-03-18T09:09:44.152900Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-03-18T09:10:44.183916Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 09:10:44 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-03-18T09:10:45.283583Z", "level": "INFO", "module": "news_fetcher", "message": "Finnhub returned 0 usable headlines."}
+{"ts": "2026-03-18T09:10:45.284926Z", "level": "INFO", "module": "main", "message": "No new headlines this cycle."}
+{"ts": "2026-03-18T09:10:45.285214Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-03-18T09:11:45.318805Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 09:11:45 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-03-18T09:11:46.320518Z", "level": "INFO", "module": "news_fetcher", "message": "Finnhub returned 0 usable headlines."}
+{"ts": "2026-03-18T09:11:46.321953Z", "level": "INFO", "module": "main", "message": "No new headlines this cycle."}
+{"ts": "2026-03-18T09:11:46.322357Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-03-18T09:12:46.354178Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 09:12:46 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-03-18T09:12:47.343579Z", "level": "INFO", "module": "news_fetcher", "message": "Finnhub returned 0 usable headlines."}
+{"ts": "2026-03-18T09:12:47.344578Z", "level": "INFO", "module": "main", "message": "No new headlines this cycle."}
+{"ts": "2026-03-18T09:12:47.344739Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-03-18T09:13:47.371356Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 09:13:47 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-03-18T09:13:48.478710Z", "level": "INFO", "module": "news_fetcher", "message": "Finnhub returned 0 usable headlines."}
+{"ts": "2026-03-18T09:13:48.480486Z", "level": "INFO", "module": "main", "message": "No new headlines this cycle."}
+{"ts": "2026-03-18T09:13:48.480761Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-03-18T09:14:48.513412Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 09:14:48 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-03-18T09:14:49.438062Z", "level": "INFO", "module": "news_fetcher", "message": "Finnhub returned 0 usable headlines."}
+{"ts": "2026-03-18T09:14:49.439294Z", "level": "INFO", "module": "main", "message": "No new headlines this cycle."}
+{"ts": "2026-03-18T09:14:49.439564Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-03-18T09:15:49.479233Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 09:15:49 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-03-18T09:15:50.963017Z", "level": "INFO", "module": "news_fetcher", "message": "Finnhub returned 0 usable headlines."}
+{"ts": "2026-03-18T09:15:50.964427Z", "level": "INFO", "module": "main", "message": "No new headlines this cycle."}
+{"ts": "2026-03-18T09:15:50.964602Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-03-18T09:16:50.993903Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 09:16:50 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-03-18T09:16:51.979106Z", "level": "INFO", "module": "news_fetcher", "message": "Finnhub returned 0 usable headlines."}
+{"ts": "2026-03-18T09:16:51.980229Z", "level": "INFO", "module": "main", "message": "No new headlines this cycle."}
+{"ts": "2026-03-18T09:16:51.980517Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-03-18T09:17:52.010122Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 09:17:52 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-03-18T09:17:53.111212Z", "level": "INFO", "module": "news_fetcher", "message": "Finnhub returned 0 usable headlines."}
+{"ts": "2026-03-18T09:17:53.112440Z", "level": "INFO", "module": "main", "message": "No new headlines this cycle."}
+{"ts": "2026-03-18T09:17:53.112600Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-03-18T09:18:53.144856Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 09:18:53 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-03-18T09:18:54.093453Z", "level": "INFO", "module": "news_fetcher", "message": "Finnhub returned 0 usable headlines."}
+{"ts": "2026-03-18T09:18:54.094642Z", "level": "INFO", "module": "main", "message": "No new headlines this cycle."}
+{"ts": "2026-03-18T09:18:54.094917Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-03-18T09:19:54.128110Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 09:19:54 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-03-18T09:19:55.243443Z", "level": "INFO", "module": "news_fetcher", "message": "Finnhub returned 0 usable headlines."}
+{"ts": "2026-03-18T09:19:55.245400Z", "level": "INFO", "module": "main", "message": "No new headlines this cycle."}
+{"ts": "2026-03-18T09:19:55.245688Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-03-18T09:20:55.273504Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 09:20:55 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-03-18T09:20:56.376807Z", "level": "INFO", "module": "news_fetcher", "message": "Finnhub returned 0 usable headlines."}
+{"ts": "2026-03-18T09:20:56.378814Z", "level": "INFO", "module": "main", "message": "No new headlines this cycle."}
+{"ts": "2026-03-18T09:20:56.379418Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-03-18T09:21:56.411249Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 09:21:56 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-03-18T09:21:57.646756Z", "level": "INFO", "module": "news_fetcher", "message": "Finnhub returned 0 usable headlines."}
+{"ts": "2026-03-18T09:21:57.649299Z", "level": "INFO", "module": "main", "message": "No new headlines this cycle."}
+{"ts": "2026-03-18T09:21:57.649976Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-03-18T09:22:57.684852Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 09:22:57 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-03-18T09:22:59.207144Z", "level": "INFO", "module": "news_fetcher", "message": "Finnhub returned 0 usable headlines."}
+{"ts": "2026-03-18T09:22:59.209869Z", "level": "INFO", "module": "main", "message": "No new headlines this cycle."}
+{"ts": "2026-03-18T09:22:59.210453Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-03-18T09:23:59.241848Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 09:23:59 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-03-18T09:24:00.540228Z", "level": "INFO", "module": "news_fetcher", "message": "Finnhub returned 0 usable headlines."}
+{"ts": "2026-03-18T09:24:00.542251Z", "level": "INFO", "module": "main", "message": "No new headlines this cycle."}
+{"ts": "2026-03-18T09:24:00.542838Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-03-18T09:25:00.574587Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 09:25:00 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-03-18T09:25:01.875154Z", "level": "INFO", "module": "news_fetcher", "message": "Finnhub returned 0 usable headlines."}
+{"ts": "2026-03-18T09:25:01.876621Z", "level": "INFO", "module": "main", "message": "No new headlines this cycle."}
+{"ts": "2026-03-18T09:25:01.876986Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-03-18T09:27:12.615240Z", "level": "INFO", "module": "main", "message": "Shutdown signal received \u2014 finishing current cycle then exiting."}
+{"ts": "2026-03-18T09:27:12.809296Z", "level": "INFO", "module": "main", "message": "Agent stopped cleanly."}

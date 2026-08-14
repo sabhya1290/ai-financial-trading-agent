@@ -1,0 +1,16 @@
+{"ts": "2026-04-15T09:30:21.669954Z", "level": "INFO", "module": "broker_executor", "message": "Alpaca client connected to https://paper-api.alpaca.markets"}
+{"ts": "2026-04-15T09:30:56.219844Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-04-15T09:30:58.631323Z", "level": "INFO", "module": "sentiment_scorer", "message": "Loading FinBERT model 'ProsusAI/finbert' \u2026 (first load may take ~30 s)"}
+{"ts": "2026-04-15T09:31:02.199187Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-04-15T09:31:06.219766Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-04-15T09:31:07.006595Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-04-15T09:31:27.720299Z", "level": "INFO", "module": "sentiment_scorer", "message": "Loading FinBERT model 'ProsusAI/finbert' \u2026 (first load may take ~30 s)"}
+{"ts": "2026-04-15T09:31:42.291074Z", "level": "INFO", "module": "signal_generator", "message": "SIGNAL_GENERATED", "ticker": "AAPL", "new_score": 0.0, "composite": 0.0, "window_size": 1, "signal": "HOLD"}
+{"ts": "2026-04-15T09:31:48.058159Z", "level": "INFO", "module": "sentiment_scorer", "message": "FinBERT model loaded."}
+{"ts": "2026-04-15T09:31:48.162352Z", "level": "INFO", "module": "signal_generator", "message": "SIGNAL_GENERATED", "ticker": "AAPL", "new_score": 0.0337, "composite": 0.0169, "window_size": 2, "signal": "HOLD"}
+{"ts": "2026-04-15T09:32:43.202575Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-04-15T09:32:44.146562Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-04-15T09:32:45.230933Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-04-15T09:32:48.968199Z", "level": "INFO", "module": "signal_generator", "message": "SIGNAL_GENERATED", "ticker": "AAPL", "new_score": 0.0337, "composite": 0.0225, "window_size": 3, "signal": "HOLD"}
+{"ts": "2026-04-15T09:33:25.758191Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-04-15T09:33:27.151821Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}

@@ -1,0 +1,417 @@
+{"ts": "2026-05-11T03:58:02.962016Z", "level": "INFO", "module": "main", "message": "\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550"}
+{"ts": "2026-05-11T03:58:02.962378Z", "level": "INFO", "module": "main", "message": "  FinBERT Sentiment Trading Agent  \u2014 starting  "}
+{"ts": "2026-05-11T03:58:02.962790Z", "level": "INFO", "module": "main", "message": "  Poll interval : 60 s                         "}
+{"ts": "2026-05-11T03:58:02.963054Z", "level": "INFO", "module": "main", "message": "\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550"}
+{"ts": "2026-05-11T03:58:10.459620Z", "level": "INFO", "module": "broker_executor", "message": "Alpaca client connected to https://paper-api.alpaca.markets"}
+{"ts": "2026-05-11T03:58:11.509658Z", "level": "INFO", "module": "main", "message": "Alpaca account  equity=$100000.00  cash=$100000.00  buying_power=$200000.00"}
+{"ts": "2026-05-11T03:58:11.510011Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 03:58:11 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T03:58:13.246671Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T03:58:13.247396Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T03:58:13.247637Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T03:58:19.250970Z", "level": "INFO", "module": "main", "message": "\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550"}
+{"ts": "2026-05-11T03:58:19.251134Z", "level": "INFO", "module": "main", "message": "  FinBERT Sentiment Trading Agent  \u2014 starting  "}
+{"ts": "2026-05-11T03:58:19.251472Z", "level": "INFO", "module": "main", "message": "  Poll interval : 60 s                         "}
+{"ts": "2026-05-11T03:58:19.251673Z", "level": "INFO", "module": "main", "message": "\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550"}
+{"ts": "2026-05-11T03:58:20.097300Z", "level": "INFO", "module": "broker_executor", "message": "Alpaca client connected to https://paper-api.alpaca.markets"}
+{"ts": "2026-05-11T03:58:21.064353Z", "level": "INFO", "module": "main", "message": "Alpaca account  equity=$100000.00  cash=$100000.00  buying_power=$200000.00"}
+{"ts": "2026-05-11T03:58:21.064960Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 03:58:21 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T03:58:22.149447Z", "level": "INFO", "module": "main", "message": "Shutdown signal received \u2014 finishing current cycle then exiting."}
+{"ts": "2026-05-11T03:58:22.721636Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T03:58:22.722189Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T03:58:22.722541Z", "level": "INFO", "module": "main", "message": "Agent stopped cleanly."}
+{"ts": "2026-05-11T03:59:13.271261Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 03:59:13 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T03:59:15.043014Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T03:59:15.043519Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T03:59:15.043747Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:00:15.068125Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:00:15 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:00:17.014648Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:00:17.015213Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:00:17.015542Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:01:17.042681Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:01:17 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:01:18.859522Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:01:18.859988Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:01:18.860159Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:01:19.149285Z", "level": "INFO", "module": "main", "message": "\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550"}
+{"ts": "2026-05-11T04:01:19.149580Z", "level": "INFO", "module": "main", "message": "  FinBERT Sentiment Trading Agent  \u2014 starting  "}
+{"ts": "2026-05-11T04:01:19.149702Z", "level": "INFO", "module": "main", "message": "  Poll interval : 60 s                         "}
+{"ts": "2026-05-11T04:01:19.149754Z", "level": "INFO", "module": "main", "message": "\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550"}
+{"ts": "2026-05-11T04:01:19.987439Z", "level": "INFO", "module": "broker_executor", "message": "Alpaca client connected to https://paper-api.alpaca.markets"}
+{"ts": "2026-05-11T04:01:20.944271Z", "level": "INFO", "module": "main", "message": "Alpaca account  equity=$100000.00  cash=$100000.00  buying_power=$200000.00"}
+{"ts": "2026-05-11T04:01:20.944376Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:01:20 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:01:22.562450Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:01:22.563149Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:01:22.563307Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:02:18.887612Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:02:18 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:02:20.687161Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:02:20.687611Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:02:20.687900Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:02:22.589972Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:02:22 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:02:24.335087Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:02:24.335910Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:02:24.336109Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:03:04.026165Z", "level": "INFO", "module": "broker_executor", "message": "Alpaca client connected to https://paper-api.alpaca.markets"}
+{"ts": "2026-05-11T04:03:20.720953Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:03:20 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:03:22.663550Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:03:22.664330Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:03:22.664537Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:03:24.365744Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:03:24 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:03:26.287720Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:03:26.288200Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:03:26.288287Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:05:47.598934Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:05:52.335748Z", "level": "WARNING", "module": "broker_executor", "message": "Could not fetch account info: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"ts": "2026-05-11T04:05:58.042199Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:06:25.544600Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:06:25 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:06:27.514906Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:06:27.515463Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:06:27.515670Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:06:28.547011Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:06:28 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:06:30.398484Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:06:30.398919Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:06:30.399002Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:06:52.901112Z", "level": "INFO", "module": "sentiment_scorer", "message": "Loading FinBERT model 'ProsusAI/finbert' \u2026 (first load may take ~30 s)"}
+{"ts": "2026-05-11T04:07:27.541129Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:07:27 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:07:29.694905Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:07:29.695375Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:07:29.695538Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:07:30.424785Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:07:30 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:07:32.346434Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:07:32.347171Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:07:32.347261Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:07:32.763415Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:07:36.591143Z", "level": "INFO", "module": "sentiment_scorer", "message": "Loading FinBERT model 'ProsusAI/finbert' \u2026 (first load may take ~30 s)"}
+{"ts": "2026-05-11T04:07:37.546328Z", "level": "INFO", "module": "sentiment_scorer", "message": "Loading FinBERT model 'ProsusAI/finbert' \u2026 (first load may take ~30 s)"}
+{"ts": "2026-05-11T04:07:39.538450Z", "level": "INFO", "module": "sentiment_scorer", "message": "Loading FinBERT model 'ProsusAI/finbert' \u2026 (first load may take ~30 s)"}
+{"ts": "2026-05-11T04:07:44.490939Z", "level": "INFO", "module": "sentiment_scorer", "message": "FinBERT model loaded."}
+{"ts": "2026-05-11T04:07:44.503204Z", "level": "INFO", "module": "sentiment_scorer", "message": "FinBERT model loaded."}
+{"ts": "2026-05-11T04:07:44.636510Z", "level": "INFO", "module": "signal_generator", "message": "SIGNAL_GENERATED", "ticker": "AAPL", "new_score": 0.5989, "composite": 0.5989, "window_size": 1, "signal": "BUY"}
+{"ts": "2026-05-11T04:07:45.969816Z", "level": "INFO", "module": "risk_manager", "message": "TRADE_APPROVED", "ticker": "AAPL", "action": "BUY", "qty": 3, "entry_price": 292.85, "stop_loss": 286.99, "take_profit": 307.49, "reason": "Positive sentiment signal"}
+{"ts": "2026-05-11T04:11:48.421541Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:11:48 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:11:50.358526Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:11:50 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:11:52.821439Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:11:52.821907Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:11:52.822035Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:11:53.390883Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:11:53.392178Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:11:53.392802Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:12:53.000403Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:12:52 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:12:53.554582Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:12:53 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:12:56.874632Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:12:56.876261Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:12:56.877142Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:12:57.584979Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:12:57.586443Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:12:57.586936Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:13:57.057966Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:13:57 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:13:57.738287Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:13:57 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:14:01.271573Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:14:01.272911Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:14:01.273468Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:14:02.503051Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:14:02.504531Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:14:02.504797Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:15:01.433287Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:15:01 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:15:02.596368Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:15:02 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:15:07.728487Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:15:07.729650Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:15:07.730530Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:15:08.346521Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:15:08.348481Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:15:08.348811Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:16:07.814759Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:16:07 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:16:08.418305Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:16:08 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:16:12.040452Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:16:12.041986Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:16:12.042512Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:16:13.168884Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:16:13.170566Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:16:13.171033Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:19:48.525920Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:19:48 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:19:50.257992Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:19:50 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:19:53.052327Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:19:53.053864Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:19:53.054445Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:20:05.910654Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:20:05.911962Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:20:05.921927Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:20:11.359243Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:20:12.011698Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:20:12.371112Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:20:19.949013Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:20:25.179787Z", "level": "INFO", "module": "signal_generator", "message": "SIGNAL_GENERATED", "ticker": "AAPL", "new_score": 0.5989, "composite": 0.5989, "window_size": 2, "signal": "BUY"}
+{"ts": "2026-05-11T04:20:25.470582Z", "level": "WARNING", "module": "broker_executor", "message": "Could not fetch price for AAPL: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"ts": "2026-05-11T04:20:25.470998Z", "level": "INFO", "module": "risk_manager", "message": "TRADE_APPROVED", "ticker": "AAPL", "action": "BUY", "qty": 6, "entry_price": 150.0, "stop_loss": 147.0, "take_profit": 157.5, "reason": "Positive sentiment signal"}
+{"ts": "2026-05-11T04:20:53.183040Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:20:53 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:20:56.713110Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:20:56.714226Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:20:56.715302Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:21:05.976635Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:21:05 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:21:09.611251Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:21:09.612295Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:21:09.612492Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:21:56.748038Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:21:56 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:22:00.171408Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:22:00.172956Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:22:00.178037Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:22:09.648364Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:22:09 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:22:13.001820Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:22:13.003185Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:22:13.003404Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:23:00.219977Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:23:00 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:23:03.895459Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:23:03.897484Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:23:03.911177Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:23:13.047567Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:23:13 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:23:16.544324Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:23:16.546145Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:23:16.546984Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:24:03.971951Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:24:03 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:24:07.584173Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:24:07.585738Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:24:07.586459Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:24:16.587785Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:24:16 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:24:20.046461Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:24:20.051150Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:24:20.051367Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:25:07.627906Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:25:07 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:25:11.074354Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:25:11.075887Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:25:11.076616Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:25:20.093163Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:25:20 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:25:23.419894Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:25:23.421744Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:25:23.422064Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:26:11.116631Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:26:11 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:26:14.664963Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:26:14.667893Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:26:14.668839Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:26:23.525552Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:26:23 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:26:26.973127Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:26:26.977436Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:26:26.977636Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:26:32.172397Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:27:14.721952Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:27:14 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:27:18.764771Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:27:18.766525Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:27:18.768059Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:27:27.079380Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:27:27 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:27:30.948025Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:27:30.949810Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:27:30.950361Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:28:18.828492Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:28:18 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:28:22.384293Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:28:22.385694Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:28:22.386276Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:28:31.097678Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:28:31 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:28:34.641382Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:28:34.642771Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:28:34.643369Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:29:22.438495Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:29:22 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:29:26.088455Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:29:26.089941Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:29:26.090504Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:29:34.713936Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:29:34 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:29:38.384413Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:29:38.385847Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:29:38.386430Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:30:26.134285Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:30:26 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:30:29.536489Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:30:29.537798Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:30:29.538247Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:30:38.422319Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:30:38 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:30:41.822629Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:30:41.824241Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:30:41.824433Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:31:29.579548Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:31:29 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:31:33.124803Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:31:33.126124Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:31:33.126648Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:31:41.892149Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:31:41 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:31:45.415336Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:31:45.416704Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:31:45.417005Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:32:33.166999Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:32:33 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:32:36.748274Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:32:36.749813Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:32:36.751372Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:32:45.459141Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:32:45 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:32:49.414285Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:32:49.415581Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:32:49.415840Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:33:36.797899Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:33:36 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:33:40.202616Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:33:40.203847Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:33:40.206603Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:33:49.463359Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:33:49 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:33:52.695201Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:33:52.696478Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:33:52.696742Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:34:40.258555Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:34:40 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:34:43.794723Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:34:43.796035Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:34:43.796883Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:34:52.731304Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:34:52 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:34:56.595281Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:34:56.596914Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:34:56.597195Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:35:43.838530Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:35:43 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:35:47.399568Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:35:47.402886Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:35:47.404599Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:35:56.635548Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:35:56 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:36:00.131726Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:36:00.133068Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:36:00.133279Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:36:47.446790Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:36:47 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:36:50.881891Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:36:50.883313Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:36:50.884008Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:37:00.189347Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:37:00 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:37:04.083681Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:37:04.085374Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:37:04.085670Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:37:50.931101Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:37:50 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:37:54.367882Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:37:54.369081Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:37:54.369796Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:38:04.122856Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:38:04 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:38:07.628028Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:38:07.629345Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:38:07.629580Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:38:54.426726Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:38:54 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:38:57.951323Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:38:57.952732Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:38:57.953576Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:39:07.672507Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:39:07 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:39:11.059211Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:39:11.061469Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:39:11.062023Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:39:57.999565Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:39:57 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:40:01.542226Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:40:01.543431Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:40:01.544058Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:40:11.108866Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:40:11 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:40:14.649316Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:40:14.650579Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:40:14.650852Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:41:01.589603Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:41:01 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:41:05.443645Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:41:05.445480Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:41:05.447018Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:41:14.702248Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:41:14 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:41:18.062829Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:41:18.063688Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:41:18.063849Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:42:05.516618Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:42:05 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:42:08.926661Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:42:08.927921Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:42:08.929048Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:42:18.102975Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:42:18 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:42:21.486784Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:42:21.488037Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:42:21.488318Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:43:08.996873Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:43:08 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:43:12.517447Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:43:12.518947Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:43:12.519769Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:43:21.553514Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:43:21 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:43:24.805778Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:43:24.807134Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:43:24.807605Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:44:12.568277Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:44:12 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:44:16.108502Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:44:16.109966Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:44:16.110544Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:44:24.846423Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:44:24 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:44:28.297583Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 1 items from Finnhub."}
+{"ts": "2026-05-11T04:44:28.299910Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 1 headlines."}
+{"ts": "2026-05-11T04:44:28.300210Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:45:16.201546Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:45:16 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:45:19.595296Z", "level": "WARNING", "module": "news_fetcher", "message": "fetch_headlines: Finnhub returned 0 items, trying next source."}
+{"ts": "2026-05-11T04:45:20.923841Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 2 items from Yahoo Finance."}
+{"ts": "2026-05-11T04:45:20.929292Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 2 headlines."}
+{"ts": "2026-05-11T04:45:20.933706Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:45:28.344929Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:45:28 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:45:31.783880Z", "level": "WARNING", "module": "news_fetcher", "message": "fetch_headlines: Finnhub returned 0 items, trying next source."}
+{"ts": "2026-05-11T04:45:32.763494Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 2 items from Yahoo Finance."}
+{"ts": "2026-05-11T04:45:32.765694Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 2 headlines."}
+{"ts": "2026-05-11T04:45:32.766066Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:46:20.978520Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:46:20 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:46:24.417982Z", "level": "WARNING", "module": "news_fetcher", "message": "fetch_headlines: Finnhub returned 0 items, trying next source."}
+{"ts": "2026-05-11T04:46:25.846494Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 2 items from Yahoo Finance."}
+{"ts": "2026-05-11T04:46:25.847870Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 2 headlines."}
+{"ts": "2026-05-11T04:46:25.848641Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:46:32.810946Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:46:32 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:46:36.197864Z", "level": "WARNING", "module": "news_fetcher", "message": "fetch_headlines: Finnhub returned 0 items, trying next source."}
+{"ts": "2026-05-11T04:46:37.186357Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 2 items from Yahoo Finance."}
+{"ts": "2026-05-11T04:46:37.188204Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 2 headlines."}
+{"ts": "2026-05-11T04:46:37.188506Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:47:25.896180Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:47:25 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:47:29.237214Z", "level": "WARNING", "module": "news_fetcher", "message": "fetch_headlines: Finnhub returned 0 items, trying next source."}
+{"ts": "2026-05-11T04:47:30.285384Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 2 items from Yahoo Finance."}
+{"ts": "2026-05-11T04:47:30.286788Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 2 headlines."}
+{"ts": "2026-05-11T04:47:30.287388Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:47:37.230850Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:47:37 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:47:40.512772Z", "level": "WARNING", "module": "news_fetcher", "message": "fetch_headlines: Finnhub returned 0 items, trying next source."}
+{"ts": "2026-05-11T04:47:41.480456Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 2 items from Yahoo Finance."}
+{"ts": "2026-05-11T04:47:41.482045Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 2 headlines."}
+{"ts": "2026-05-11T04:47:41.482272Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:48:30.331013Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:48:30 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:48:33.950170Z", "level": "WARNING", "module": "news_fetcher", "message": "fetch_headlines: Finnhub returned 0 items, trying next source."}
+{"ts": "2026-05-11T04:48:35.178285Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 2 items from Yahoo Finance."}
+{"ts": "2026-05-11T04:48:35.180459Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 2 headlines."}
+{"ts": "2026-05-11T04:48:35.180956Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:48:41.548839Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:48:41 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:48:45.111169Z", "level": "WARNING", "module": "news_fetcher", "message": "fetch_headlines: Finnhub returned 0 items, trying next source."}
+{"ts": "2026-05-11T04:48:46.121745Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 2 items from Yahoo Finance."}
+{"ts": "2026-05-11T04:48:46.123817Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 2 headlines."}
+{"ts": "2026-05-11T04:48:46.124045Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:49:35.257450Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:49:35 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:49:38.563862Z", "level": "WARNING", "module": "news_fetcher", "message": "fetch_headlines: Finnhub returned 0 items, trying next source."}
+{"ts": "2026-05-11T04:49:39.792322Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 2 items from Yahoo Finance."}
+{"ts": "2026-05-11T04:49:39.793747Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 2 headlines."}
+{"ts": "2026-05-11T04:49:39.794159Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:49:46.190163Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:49:46 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:49:49.623464Z", "level": "WARNING", "module": "news_fetcher", "message": "fetch_headlines: Finnhub returned 0 items, trying next source."}
+{"ts": "2026-05-11T04:49:50.608687Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 2 items from Yahoo Finance."}
+{"ts": "2026-05-11T04:49:50.610996Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 2 headlines."}
+{"ts": "2026-05-11T04:49:50.611278Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:50:39.847462Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:50:39 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:50:43.588277Z", "level": "WARNING", "module": "news_fetcher", "message": "fetch_headlines: Finnhub returned 0 items, trying next source."}
+{"ts": "2026-05-11T04:50:44.759511Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 2 items from Yahoo Finance."}
+{"ts": "2026-05-11T04:50:44.761850Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 2 headlines."}
+{"ts": "2026-05-11T04:50:44.762359Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:50:50.670634Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:50:50 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:51:01.441178Z", "level": "WARNING", "module": "news_fetcher", "message": "Finnhub (general): request failed: HTTPSConnectionPool(host='finnhub.io', port=443): Read timed out. (read timeout=10)"}
+{"ts": "2026-05-11T04:51:03.860397Z", "level": "WARNING", "module": "news_fetcher", "message": "fetch_headlines: Finnhub returned 0 items, trying next source."}
+{"ts": "2026-05-11T04:51:05.022594Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 2 items from Yahoo Finance."}
+{"ts": "2026-05-11T04:51:05.024949Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 2 headlines."}
+{"ts": "2026-05-11T04:51:05.025251Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:51:44.814788Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:51:44 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:51:48.182613Z", "level": "WARNING", "module": "news_fetcher", "message": "fetch_headlines: Finnhub returned 0 items, trying next source."}
+{"ts": "2026-05-11T04:51:49.331506Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 2 items from Yahoo Finance."}
+{"ts": "2026-05-11T04:51:49.333608Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 2 headlines."}
+{"ts": "2026-05-11T04:51:49.334368Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:52:05.102083Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:52:05 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:52:09.093885Z", "level": "WARNING", "module": "news_fetcher", "message": "fetch_headlines: Finnhub returned 0 items, trying next source."}
+{"ts": "2026-05-11T04:52:10.503599Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 2 items from Yahoo Finance."}
+{"ts": "2026-05-11T04:52:10.505765Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 2 headlines."}
+{"ts": "2026-05-11T04:52:10.506231Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:52:49.372563Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:52:49 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T04:52:52.816340Z", "level": "WARNING", "module": "news_fetcher", "message": "fetch_headlines: Finnhub returned 0 items, trying next source."}
+{"ts": "2026-05-11T04:52:54.246939Z", "level": "INFO", "module": "news_fetcher", "message": "fetch_headlines: got 2 items from Yahoo Finance."}
+{"ts": "2026-05-11T04:52:54.248599Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 2 headlines."}
+{"ts": "2026-05-11T04:52:54.249060Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T04:53:10.545968Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 04:53:10 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-05-11T16:34:16.842409Z", "level": "WARNING", "module": "news_fetcher", "message": "Finnhub (forex): request failed: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"}
+{"ts": "2026-05-11T16:34:16.844119Z", "level": "WARNING", "module": "broker_executor", "message": "Could not fetch account info: ('Connection aborted.', ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None))"}
+{"ts": "2026-05-11T16:34:16.871655Z", "level": "WARNING", "module": "news_fetcher", "message": "Finnhub (merger): request failed: HTTPSConnectionPool(host='finnhub.io', port=443): Max retries exceeded with url: /api/v1/news?category=merger&token=d6t6dchr01qoqoisdv80d6t6dchr01qoqoisdv8g (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002121331CB90>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))"}
+{"ts": "2026-05-11T16:34:16.872186Z", "level": "WARNING", "module": "news_fetcher", "message": "fetch_headlines: Finnhub returned 0 items, trying next source."}
+{"ts": "2026-05-11T16:34:16.894964Z", "level": "WARNING", "module": "news_fetcher", "message": "Yahoo Finance: request failed: HTTPSConnectionPool(host='feeds.finance.yahoo.com', port=443): Max retries exceeded with url: /rss/2.0/headline?s=%5EGSPC%2C%5EDJI%2CAAPL%2CMSFT%2CGOOGL%2CAMZN%2CTSLA&region=US&lang=en-US (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002121331CCD0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))"}
+{"ts": "2026-05-11T16:34:16.895279Z", "level": "WARNING", "module": "news_fetcher", "message": "fetch_headlines: Yahoo Finance returned 0 items, trying next source."}
+{"ts": "2026-05-11T16:34:16.895433Z", "level": "WARNING", "module": "news_fetcher", "message": "GNews: GNEWS_API_KEY is not set, skipping."}
+{"ts": "2026-05-11T16:34:16.895511Z", "level": "WARNING", "module": "news_fetcher", "message": "fetch_headlines: GNews returned 0 items, trying next source."}
+{"ts": "2026-05-11T16:34:16.895600Z", "level": "ERROR", "module": "news_fetcher", "message": "fetch_headlines: all sources failed. Returning demo headlines."}
+{"ts": "2026-05-11T16:34:16.896850Z", "level": "INFO", "module": "main", "message": "No watchlist tickers found in 5 headlines."}
+{"ts": "2026-05-11T16:34:16.896942Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-05-11T20:27:41.511601Z", "level": "WARNING", "module": "news_fetcher", "message": "Finnhub (general): request failed: HTTPSConnectionPool(host='finnhub.io', port=443): Max retries exceeded with url: /api/v1/news?category=general&token=d6t6dchr01qoqoisdv80d6t6dchr01qoqoisdv8g (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002158287C690>, 'Connection to finnhub.io timed out. (connect timeout=10)'))"}

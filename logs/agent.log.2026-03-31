@@ -1,0 +1,18 @@
+{"ts": "2026-03-31T17:36:38.309948Z", "level": "INFO", "module": "main", "message": "\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550"}
+{"ts": "2026-03-31T17:36:38.311138Z", "level": "INFO", "module": "main", "message": "  FinBERT Sentiment Trading Agent  \u2014 starting  "}
+{"ts": "2026-03-31T17:36:38.311708Z", "level": "INFO", "module": "main", "message": "  Poll interval : 60 s                         "}
+{"ts": "2026-03-31T17:36:38.312113Z", "level": "INFO", "module": "main", "message": "\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550"}
+{"ts": "2026-03-31T17:36:38.314587Z", "level": "ERROR", "module": "broker_executor", "message": "alpaca-trade-api not installed. Run: pip install alpaca-trade-api"}
+{"ts": "2026-03-31T17:36:38.315796Z", "level": "INFO", "module": "main", "message": "Alpaca account  equity=$100000.00  cash=$100000.00  buying_power=$100000.00"}
+{"ts": "2026-03-31T17:36:38.316752Z", "level": "INFO", "module": "main", "message": "\u2500\u2500 Cycle start at 17:36:38 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"}
+{"ts": "2026-03-31T17:36:39.220593Z", "level": "INFO", "module": "news_fetcher", "message": "Finnhub returned 0 usable headlines."}
+{"ts": "2026-03-31T17:36:39.222652Z", "level": "INFO", "module": "main", "message": "No new headlines this cycle."}
+{"ts": "2026-03-31T17:36:39.223024Z", "level": "INFO", "module": "main", "message": "Sleeping 60 s until next cycle \u2026\n"}
+{"ts": "2026-03-31T17:37:06.178945Z", "level": "INFO", "module": "main", "message": "Shutdown signal received \u2014 finishing current cycle then exiting."}
+{"ts": "2026-03-31T17:37:06.236546Z", "level": "INFO", "module": "main", "message": "Agent stopped cleanly."}
+{"ts": "2026-03-31T17:47:29.211608Z", "level": "INFO", "module": "broker_executor", "message": "Alpaca client connected to https://paper-api.alpaca.markets"}
+{"ts": "2026-03-31T17:47:49.690565Z", "level": "INFO", "module": "news_fetcher", "message": "Finnhub returned 0 usable headlines."}
+{"ts": "2026-03-31T17:47:57.815156Z", "level": "INFO", "module": "news_fetcher", "message": "Finnhub returned 0 usable headlines."}
+{"ts": "2026-03-31T17:49:41.072956Z", "level": "WARNING", "module": "news_fetcher", "message": "Finnhub request failed: HTTPSConnectionPool(host='finnhub.io', port=443): Read timed out."}
+{"ts": "2026-03-31T17:50:27.214546Z", "level": "WARNING", "module": "broker_executor", "message": "Could not fetch account info: HTTPSConnectionPool(host='paper-api.alpaca.markets', port=443): Max retries exceeded with url: /v2/account (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000183E13874D0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))"}
+{"ts": "2026-03-31T17:50:27.215674Z", "level": "WARNING", "module": "broker_executor", "message": "Could not fetch account info: HTTPSConnectionPool(host='paper-api.alpaca.markets', port=443): Max retries exceeded with url: /v2/account (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000183E0E43610>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))"}
